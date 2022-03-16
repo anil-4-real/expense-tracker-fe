@@ -5,6 +5,8 @@ import { v4 as uuidv4 } from "uuid";
 import { useAuth0 } from "@auth0/auth0-react";
 
 const Home = () => {
+  console.log(process.env);
+
   const { isAuthenticated, user } = useAuth0();
 
   useEffect(() => {
