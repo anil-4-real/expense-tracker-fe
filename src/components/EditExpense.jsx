@@ -155,6 +155,7 @@ const CreateExpense = () => {
             onChange={formik.handleChange}
             value={formik.values.category}
           >
+            <option value="">--select--</option>
             <option value="miscellaneous">Misc</option>
             <option value="food">Food</option>
             <option value="travel">Travel</option>
