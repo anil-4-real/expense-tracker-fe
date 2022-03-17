@@ -9,7 +9,6 @@ import CreateExpense from "./components/CreateExpense";
 import EditExpense from "./components/EditExpense";
 
 function App() {
-  console.log(process.env);
   return (
     <Auth0Provider
       domain={process.env.REACT_APP_AUTH0_DOMAIN}
